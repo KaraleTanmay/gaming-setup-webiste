@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-image: url('/img/bg3.jpg');
+    height: 1080px;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: inline-block;
+    position: sticky;
+}
+
+.headerdividions {
+    display: inline-block;
+
+
+}
+
+#head-left {
+    width: 20%;
+    height: 80px;
+
+}
+
+#head-right {
+    width: 8%;
+    height: 80px;
+    margin: 0px;
+    position: relative;
+    bottom: 40px;
+
+}
+
+#head-mid {
+    width: 50%;
+    height: 80px;
+    margin: 0px;
+    padding-left: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
+    position: relative;
+    bottom: 23px;
+}
+
+#navbar {
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navitem {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.navmenu {
+    margin: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(212, 212, 212);
+}
+
+.navmenu:hover,
+menuitem:active,
+.active,
+h4:hover {
+    color: rgb(191, 31, 31);
+}
+
+#logo {
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    border: none;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+
+#login {
+    margin: 70%;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(212, 212, 212);
+}
+
+#login:hover {
+    color: rgb(191, 31, 31);
+    background-color: gray;
+}
+
+.container {
+    color: white;
+}
+
+.plan {
+    display: inline-block;
+    width: 49%;
+    height: 490px;
+    position: relative;
+    left: 6px;
+}
+
+.planning {
+    height: 300px;
+    width: 70%;
+    border: 8px solid rgb(133, 133, 133);
+    padding: 8px solid black;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+h4 {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    right: 220px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+a img:hover{
+border: 8px solid rgb(197, 36, 122);
+}
